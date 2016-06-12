@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+{% assign book           = site.data.sinatra_intro.book %}
+<!-- todo: check - can we use book.contents - why? why not? -->
+{% assign book_contents  = site.data.sinatra_intro.contents %}
+
+
+<p>
+  <a href="index.html">Yuki &amp; Moto Press</a>
+</p>
+
+<!-- cover -->
+
+
+<h1>{{ book.title }}</h1>
+<h3>by {{ book.author.name }}</h3>
+
+
+<!-- table of contents -->
+
+<div class='toc'>
+
+Contents
+
+<ul>
+{% for chapter in book_contents %}
+  <li>{{ chapter.title }}
+   <ul>
+     {% for sec in chapter.sections %}
+     <li>{{ sec.title }}
+       {% if sec.sections %}
+       <ul>
+         {% for subsec in sec.sections %}
+         <li>{{ subsec.title }}</li>
+         {% endfor %}
+       </ul>
+       {% endif %}
+     </li>
+     {% endfor %}
+   </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+
+
+
+<h2>Notes</h2>
+
+
+<p>
+This is the <a href="https://github.com/sinatra/sinatra-book">original source</a>
+reformatted in a single-page book edition (using the
+<a href="http://manuscripts.github.io">Manuscripts format</a>).
+</p>
+
+<p>See the <a href="https://github.com/yukimotopress/sinatra-intro">source repo</a> for how
+the book gets auto-built with "plain" Jekyll - of course - and hosted on GitHub Pages.
+</p>
+
+<p>
+Onwards.
+</p>
+
+
+
+<!-- chapters -->
+
+{% for chapter in book_contents %}
+<div class="chapter">
+  <h1>{{forloop.index}}. {{ chapter.title }}</h1>
+
+  <!-- add mini table of contents for chapter if available -->
+  {% if chapter.sections %}
+  Contents
+  <ul>
+    {% for sec in chapter.sections %}
+    <li>{{ sec.title }}
+      {% if sec.sections %}
+      <ul>
+        {% for subsec in sec.sections %}
+        <li>{{ subsec.title }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+
+  <!-- try adding content using include_relative -->
+  {% capture txt %}{% include_relative _sinatra-intro/{{chapter.path}} %}{% endcapture %}
+
+  <!-- hack: cut off yaml front matter header
+     possible alternative??:
+       try to use collection and use a content lookup with title or path - why? whynot??
+    -->
+  {% assign txt2 = txt | replace_first: '---', '' | replace_first: '---', '@@END@@' | split: '@@END@@' %}
+  {{ txt2[1] | markdownify }}
+</div>
+{% endfor %}

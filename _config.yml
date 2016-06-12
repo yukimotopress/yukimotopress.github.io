@@ -1,0 +1,22 @@
+########
+# settings
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  sass_dir: css
+  style: expanded
+
+exclude:
+- README.md
+- .gitignore
+- Gemfile
+- Gemfile.lock
+
+
+# safe: true
+# lsi: false
