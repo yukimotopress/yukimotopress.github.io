@@ -1,3 +1,6 @@
 [submodule "_sinatra-intro"]
 	path = _sinatra-intro
 	url = https://github.com/yukimotopress/sinatra-intro
+[submodule "_gem-dev"]
+	path = _gem-dev
+	url = https://github.com/yukimotopress/gem-dev
