@@ -5,6 +5,10 @@ title:  Yuki & Moto Press - Free Books about Ruby 'n' Friends
 ## use &amp; for html??  why? why not??
 ##   e.g. Yuki &amp; Moto Press - Free Books about Ruby n Friends
 
+home:
+  url:   https://github.com/yukimotopress
+  title: Yuki & Moto Press
+
 
 style:
   link_color: '#8b0000'    # use ruby-ish red
