@@ -6,7 +6,7 @@ title:  Yuki & Moto Press - Free Books about Ruby 'n' Friends
 ##   e.g. Yuki &amp; Moto Press - Free Books about Ruby n Friends
 
 home:
-  url:   https://yukimotopress.github.io    ## allow http:// and https:// w/ // works??
+  url:   http://yukimotopress.github.io     ## allow http:// and https:// w/ // works??
   title: Yuki & Moto Press
 
 
