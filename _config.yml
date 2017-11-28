@@ -2,7 +2,7 @@
 # style settings
 
 style:
-  link_color:  green      # '#8b0000'    # use ruby-ish red
+  link_color: '#8b0000'    # use ruby-ish red
 
 
 ########################
@@ -27,4 +27,4 @@ exclude:
 plugins:
 - jekyll-remote-theme
 
-remote_theme: yukimotopress/jekyll-books-theme
+remote_theme: octobook/books-twentyeighteen-theme
