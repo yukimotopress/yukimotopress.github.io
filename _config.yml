@@ -1,3 +1,10 @@
+###################
+# style settings
+
+style:
+  link_color:  green      # '#8b0000'    # use ruby-ish red
+
+
 ########################
 # build settings
 
@@ -15,10 +22,6 @@ exclude:
 - .gitignore
 - Gemfile
 - Gemfile.lock
-
-
-# safe: true
-# lsi: false
 
 
 plugins:
