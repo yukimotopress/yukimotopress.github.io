@@ -32,6 +32,26 @@ contents:
   - title: What about Proof-of-Work? What about Consensus?
   - title: Find the Lucky Number - Nonce == Number Used Once
 
+- title: 3. Adding Transactions
+  path:  03__Transactions.md
+  sections:
+  - title: The World's Worst Database - Bitcoin Blockchain Mining
+  - title: Tulips on the Blockchain! Adding Transactions
+
+- title: 4. Blockchain Lite
+  path:  04__Blockchain_lite.md
+  sections:
+  - title: Basic Blocks
+  - title: Proof-of-Work Blocks
+  - title: Transactions
+
+- title: 5. Merkle Tree
+  path:  05__Merkle_tree.md
+  sections:
+  - title: Build Your Own Crypto Hash Trees; Grow Your Own Money on Trees
+  - title: What's a Merkle Tree?
+  - title: Transactions
+
 
 
 - title: A1. Awesome Crypto
