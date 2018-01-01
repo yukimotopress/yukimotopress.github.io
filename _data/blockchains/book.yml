@@ -52,6 +52,11 @@ contents:
   - title: What's a Merkle Tree?
   - title: Transactions
 
+- title: 6. Central Bank
+  path:  06__Central_bank.md
+  sections:
+  - title: Run Your Own Federated Central Bank Nodes on the Blockchain Peer-to-Peer over HTTP
+  - title: Inside Mining - Printing Cryptos, Cryptos, Cryptos on the Blockchain
 
 
 - title: A1. Awesome Crypto
