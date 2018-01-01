@@ -4,3 +4,6 @@
 [submodule "_gem-dev"]
 	path = _gem-dev
 	url = https://github.com/yukimotopress/gem-dev
+[submodule "_blockchains"]
+	path = _blockchains
+	url = https://github.com/yukimotopress/blockchains

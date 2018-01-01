@@ -31,6 +31,7 @@ exclude:
 - .gitignore
 - Gemfile
 - Gemfile.lock
+- NOTES.md
 
 
 plugins:
