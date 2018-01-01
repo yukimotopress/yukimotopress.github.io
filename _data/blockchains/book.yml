@@ -37,3 +37,21 @@ contents:
   - title: A Blockchain in Ruby in 20 Lines! A Blockchain is a Data Structure
   - title: What about Proof-of-Work? What about Consensus?
   - title: Find the Lucky Number - Nonce == Number Used Once
+
+
+
+- title: A1. Awesome Crypto
+  path:  A1__Awesome_crypto.md
+
+- title: A2. Case Studies
+  path:  A2__Case_studies.md
+  sections:
+  - title: Dutch Gulden
+  - title: Shilling
+  - title: CryptoKitties (and CryptoCopycats)
+
+- title: A3. Resources
+  path:  A3__Resources.md
+
+- title: A4. Git
+  path:  A4__Git.md
