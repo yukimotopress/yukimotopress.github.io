@@ -1,0 +1,21 @@
+############################
+#  Book (Meta) Info
+
+title:   "Gem Series ++ Project Automation 'n' Database Documentation Tools (Book Edition)"
+author:
+  name:  "Gerald Bauer, et al"
+
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/yukimotopress/auto
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: 1. quik - Quick Starter Template Script Wizard; The Missing Code Generator 'n' Project Scaffolder for Gems, Sinatra, Jekyll 'n' More
+  path:  quik.md
