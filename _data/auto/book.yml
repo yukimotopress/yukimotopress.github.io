@@ -19,3 +19,15 @@ github:
 contents:
 - title: 1. quik - Quick Starter Template Script Wizard; The Missing Code Generator 'n' Project Scaffolder for Gems, Sinatra, Jekyll 'n' More
   path:  quik.md
+
+- title: 2. hoe - Build, Package and Publish Gems with Hoe; Use Build Scripts with Ready-to-Use Rake Tasks
+  path:  hoe.md
+
+- title: 3. schemadoc - Auto-generate your SQL database schema documentation for tables, columns, symbols A-Z, etc
+  path:  schemadoc.md
+
+- title: 4. annotate - Annotate Your ActiveRecord Models with Comments about Your Database Table Structure
+  path:  annotate.md
+  
+- title: 5. erd - Generate entity-relationship diagrams (ERD) for your activerecord models
+  path:  erd.md

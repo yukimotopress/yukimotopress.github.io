@@ -36,5 +36,7 @@ exclude:
 
 plugins:
 - jekyll-remote-theme
+- jekyll-avatar
+
 
 remote_theme: octobook/books-twentyeighteen-theme
