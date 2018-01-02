@@ -7,3 +7,6 @@
 [submodule "_blockchains"]
 	path = _blockchains
 	url = https://github.com/yukimotopress/blockchains
+[submodule "_auto"]
+	path = _auto
+	url = https://github.com/yukimotopress/auto
