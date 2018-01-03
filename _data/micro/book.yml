@@ -1,0 +1,28 @@
+############################
+#  Book (Meta) Info
+
+title:   "Gem Series ++ Web Services (HTTP JSON APIs) the Modern Micro Way (Book Edition)"
+author:
+  name:  "Gerald Bauer, et al"
+
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/yukimotopress/micro
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: 1. almost-sinatra - Build Your Own (Micro) Webframework From Scratch with Rack and Tilt in Less Than Ten Lines
+  path:  almost-sinatra.md
+
+- title: 2. webservice - Script (Micro) Web Services (HTTP JSON APIs); Load (Micro) Web Services At-Runtime and More
+  path:  webservice.md
+
+- title: 3. worlddb - (Micro) Web Services (HTTP JSON APIs) Case Study - Seven Continents and the Countries of the World
+  path:  worlddb.md
+  
