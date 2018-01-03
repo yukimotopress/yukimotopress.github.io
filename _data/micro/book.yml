@@ -25,4 +25,18 @@ contents:
 
 - title: 3. worlddb - (Micro) Web Services (HTTP JSON APIs) Case Study - Seven Continents and the Countries of the World
   path:  worlddb.md
-  
+
+- title: 4. beerdb - (Micro) Web Services (HTTP JSON APIs) Case Study - Cheers, Prost, Kampai, Na zdravi, Salute, 乾杯, Skål, Egészségedre!
+  path:  beerdb.md
+
+- title: 5. sportdb - (Micro) Web Services (HTTP JSON APIs) Case Study - The World's Biggest Event - Russia 2018 - Football World Cup
+  path:  sportdb.md
+
+- title: 6. feedparser - Meet Jason Feed - The Universal Content (Micro) Web Service (HTTP JSON API) - The Future of Publishing 'n' Online News
+  path:  feedparser.md
+
+- title: 7. json-next - Comments, Please! - JSON 1.0, JSON 1.1, JSON What's Next?
+  path:  json-next.md
+
+- title: 8. feedtxt - TXT is the new JSON Case Study - Feeds in Text (Unicode) - Publish 'n' Share Posts, Articles, Podcasts, 'n' More
+  path:  feedtxt.md
