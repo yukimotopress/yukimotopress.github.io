@@ -10,3 +10,6 @@
 [submodule "_auto"]
 	path = _auto
 	url = https://github.com/yukimotopress/auto
+[submodule "_micro"]
+	path = _micro
+	url = https://github.com/yukimotopress/micro
