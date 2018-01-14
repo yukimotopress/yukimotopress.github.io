@@ -69,3 +69,24 @@ contents:
   - title: Encoding a bitmap image
   - title: Decoding a bitmap image
   - title: Reflections
+
+- title: 6. Building Unix-style command line applications - Build a basic clone of the 'cat' utility while learning some idioms for command line applications
+  path:  unix-style-command-line-applications.md
+  sections:
+  - title: Building an executable script
+  - title: Stream processing techniques
+  - title: Options parsing
+  - title: Basic text formatting
+  - title: Error handling and exit codes
+  - title: Reflections
+
+- title: 7. Rapid Prototyping - Build a tiny prototype of a tetris game on the command line
+  path:  rapid-prototyping.md
+  sections:
+  - title: The Planning Phase
+  - title: The Requirements Phase
+  - title: The Coding Phase
+    sections:
+    - title: "Case 1: line_shape_demo.rb"
+    - title: "Case 2: bended_shape_demo.rb"
+  - title: Reflections
