@@ -1,0 +1,48 @@
+############################
+#  Book (Meta) Info
+
+title:   Ruby Best Practices
+author:
+  name:  Gregory Brown
+
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/yukimotopress/practices
+
+original:
+  url: https://github.com/practicingruby/rbp-book
+
+
+######################
+#  Table of Contents
+
+contents:
+- title:  Foreword (by Yukihiro "Matz" Matsumoto)
+  path:   00__Foreword.md
+- title:  Preface
+  path:   00__Preface.md
+- title:  1. Driving Code Through Tests
+  path:   01__Driving_Code_Through_Tests.md
+  sections:
+  - title: A Quick Note on Testing Frameworks
+  - title: Designing for Testability
+    sections:
+    - title: Sidebar - A Test::Unit Trick to Know About
+  - title: Testing Fundamentals
+    sections:
+    - title: Well-Focused Examples
+    - title: Testing Exceptions
+    - title: Run the Whole Suite at Once
+  - title: Advanced Testing Techniques
+    sections:
+    - title: Using Mocks and Stubs
+    - title: Testing Complex Output
+  - title: Keeping Things Organized
+    sections:
+    - title: Embedding Tests in Library Files
+    - title: Test Helpers
+    - title: Custom Assertions
+  - title: Conclusions

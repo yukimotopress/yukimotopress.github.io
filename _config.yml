@@ -39,4 +39,4 @@ plugins:
 - jekyll-avatar
 
 
-remote_theme: octobook/books-twentyeighteen-theme
+remote_theme: octobook/book-2018-theme
