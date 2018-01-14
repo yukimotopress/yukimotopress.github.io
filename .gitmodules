@@ -16,3 +16,6 @@
 [submodule "_practices"]
 	path = _practices
 	url = https://github.com/yukimotopress/practices
+[submodule "_practicing"]
+	path = _practicing
+	url = https://github.com/yukimotopress/practicing
