@@ -13,3 +13,6 @@
 [submodule "_micro"]
 	path = _micro
 	url = https://github.com/yukimotopress/micro
+[submodule "_practices"]
+	path = _practices
+	url = https://github.com/yukimotopress/practices
