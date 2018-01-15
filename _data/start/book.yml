@@ -1,0 +1,47 @@
+############################
+#  Book (Meta) Info
+
+title:   How I Start - Let's Build a Ruby Gem Together! (Book Edition)
+author:
+  name:  Steve Klabnik
+
+
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/yukimotopress/start
+
+original:
+  url: https://github.com/howistart/howistart/tree/master/ruby
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: Let's Build a Ruby Gem Together!
+  path:  index.md
+  sections:
+  - title: Intro
+  - title: Figure out what our gem needs to do
+  - title: Install git
+  - title: Install Ruby
+  - title: Generate the skeleton
+    sections:
+    - title: Gemfile
+    - title: Rakefile
+    - title: LICENSE.txt
+    - title: README.md
+    - title: .gitignore
+    - title: how_i_start.gemspec
+    - title: lib/how_i_start.rb
+    - title: lib/how_i_start/version.rb
+  - title: Write some tests
+  - title: Implement the code
+  - title: Write some docs
+  - title: Push to GitHub
+  - title: Push to RubyGems
+  - title: Tweet about it
+  - title: Conclusion

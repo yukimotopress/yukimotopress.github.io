@@ -19,3 +19,6 @@
 [submodule "_practicing"]
 	path = _practicing
 	url = https://github.com/yukimotopress/practicing
+[submodule "_start"]
+	path = _start
+	url = https://github.com/yukimotopress/start
