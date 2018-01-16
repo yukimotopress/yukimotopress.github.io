@@ -22,3 +22,6 @@
 [submodule "_start"]
 	path = _start
 	url = https://github.com/yukimotopress/start
+[submodule "_gem-tasks"]
+	path = _gem-tasks
+	url = https://github.com/yukimotopress/gem-tasks
