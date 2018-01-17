@@ -21,7 +21,7 @@
 {% assign known_author = site.data.author_by_name[ author_name ] %}
 
 
-{% if known_author %}
+{%- if known_author -%}
   <a href="https://github.com/{{ known_author.github }}">
     {% assign avatar_user = known_author.github %}
     {% if avatar_size <= 20 %}
@@ -41,9 +41,8 @@
     <a class="author" href="https://github.com/{{ known_author.github }}">
       {{ author_name }}
     </a>
-  </span>
-{% else %}
+  </span>{%- else -%}
   <span>
    {{ include.author }}
   </span>
-{% endif %}
+{%- endif -%}
