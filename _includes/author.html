@@ -39,10 +39,7 @@
 
   <span>
     <a class="author" href="https://github.com/{{ known_author.github }}">
-      {{ author_name }}
-    </a>
-  </span>{%- else -%}
-  <span>
-   {{ include.author }}
-  </span>
+      {{ author_name }}</a></span>
+{%- else -%}
+  <span>{{ include.author }}</span>
 {%- endif -%}
