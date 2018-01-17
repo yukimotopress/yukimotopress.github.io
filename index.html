@@ -3,6 +3,24 @@ layout: page
 title:  Welcome
 ---
 
+<style>
+/* github avatar added w avatar plugin  -- todo: move to "custom css" file */
+img.avatar {
+  border-radius: 3px;
+  border: 0;
+}
+  
+a.author {
+   text-color: black;
+   text-decoration: none;
+}
+  
+a.author:hover,
+a.author:focus {
+    text-decoration: underline;
+}    
+</style>
+
 
 {% include thanks.html %}
 
@@ -21,8 +39,7 @@ title:  Welcome
       {% include author.html author='Eric Hodel' %}, 
       et al
     <span style="font-size: 70%;">
-         (<a href="https://github.com/yukimotopress/gem-dev">Source in the Manuscripts book format</a>,
-           <a href="https://github.com/yukimotopress/gem-dev#sources">Original Sources</a>)
+         (<a href="https://github.com/yukimotopress/gem-dev">Sources</a>)
     </span>
 <a class="github-button" href="https://github.com/yukimotopress/gem-dev"
     data-icon="octicon-star"
@@ -34,10 +51,9 @@ title:  Welcome
 
 <p>
   <b><a href="start">How I Start - Let's Build a Gem Together!</a></b>
-      by Steve Klabnik
+      by {% include author.html author='Steve Klabnik' %}
     <span style="font-size: 70%;">
-         (<a href="https://github.com/yukimotopress/start">Source in the Manuscripts book format</a>,
-           <a href="https://github.com/yukimotopress/start#sources">Original Sources</a>)
+         (<a href="https://github.com/yukimotopress/start">Sources)
     </span>
 <a class="github-button" href="https://github.com/yukimotopress/start"
     data-icon="octicon-star"
