@@ -1,5 +1,5 @@
-<p style="text-align: center;">
-  <b>Brought to you by</b>
+<p>
+  Brought to you by
 </p>
 
 <style>
@@ -17,7 +17,7 @@ img.avatar {
   {% assign known_author = site.data.author_by_name[ author.name ] %}
 
   {% if known_author %}
-    <a href="https://github.com/{{ known_author.github }}" title="{{ known_author.name }}">
+    <a href="https://github.com/{{ known_author.github }}" title="{{ author.name }}">
       {% avatar user=known_author.github size=32 %}
     </a>
   {% else %}
