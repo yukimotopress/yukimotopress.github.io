@@ -1,0 +1,20 @@
+<p style="text-align: center;>
+  <b>Brought to you by</b>
+</p>
+
+
+<p>
+{% assign sorted_authors = site.data.thanks | sort: 'name' %}
+{% for author in sorted_authors %}
+
+  {% assign known_author = site.data.author_by_name[ author.name ] %}
+
+  {% if known_author %}
+    <a href="https://github.com/{{ known_author.github }}" title="{{ known_author.name }}">
+      {% avatar user=known_author.github size=32 %}
+    </a>
+  {% else %}
+    <!-- {{ author.name }} -->
+  {% endif %}
+{% endfor %}
+</p>
