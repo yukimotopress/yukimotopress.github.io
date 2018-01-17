@@ -1,0 +1,49 @@
+{% comment %}
+<!--
+   note:  include.size | default: 20  is NOT working
+     if no value passed in; returns 1
+-->
+{% endcomment %}
+
+<!-- include.size: {{ include.size }} -->
+{% if include.size < 5 %}
+   {% assign avatar_size = 20 %}  <!-- default to 20px -->
+{% else %}
+   {% assign avatar_size = include.size %}
+{% endif %}
+<!-- size after: {{ size }} -->
+
+
+{% assign author_name = include.author %}
+<!-- author_name after: {{ author_name }} -->
+
+
+{% assign known_author = site.data.author_by_name[ author_name ] %}
+
+
+{% if known_author %}
+  <a href="https://github.com/{{ known_author.github }}">
+    {% assign avatar_user = known_author.github %}
+    {% if avatar_size <= 20 %}
+      <!-- use avatar size=20;  hard-code w/ variable not working -why? -->
+      {% avatar user=avatar_user size=20 %}
+    {% elsif avatar_size == 32 %}
+      <!-- use avatar size=32;  hard-code w/ variable not working -why? -->
+      {% avatar user=avatar_user size=32 %}
+    {% else %}
+      <!-- use avatar size={{ avatar_size }} -->
+      {% avatar user=avatar_user size=avatar_size %}
+    {% endif %}
+  </a>
+
+
+  <span>
+    <a class="author" href="https://github.com/{{ known_author.github }}">
+      {{ author_name }}
+    </a>
+  </span>
+{% else %}
+  <span>
+   {{ include.author }}
+  </span>
+{% endif %}
