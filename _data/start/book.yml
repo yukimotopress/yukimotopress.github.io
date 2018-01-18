@@ -45,3 +45,17 @@ contents:
   - title: Push to RubyGems
   - title: Tweet about it
   - title: Conclusion
+
+- title: Appendix - How I Start Sources
+  path:  sources.md
+  sections:
+  - title: Directory Structure
+  - title: README.md
+  - title: LICENSE.txt
+  - title: Gemfile
+  - title: how_i_start.gemspec
+  - title: Rakefile
+  - title: bin/how_i_start
+  - title: lib/how_i_start.rb
+  - title: lib/how_i_start/version.rb
+  - title: test/url_test.rb
