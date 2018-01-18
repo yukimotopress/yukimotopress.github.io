@@ -25,3 +25,6 @@
 [submodule "_gem-tasks"]
 	path = _gem-tasks
 	url = https://github.com/yukimotopress/gem-tasks
+[submodule "_http"]
+	path = _http
+	url = https://github.com/yukimotopress/http

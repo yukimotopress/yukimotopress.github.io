@@ -1,7 +1,7 @@
 ############################
 #  Book (Meta) Info
 
-title:   How I Start - Let's Build a Ruby Gem Together! (Book Edition)
+title:   How I Start - Let's Build a Gem Together! (Book Edition)
 author:
   name:  Steve Klabnik
 
@@ -21,7 +21,7 @@ original:
 #  Table of Contents
 
 contents:
-- title: Let's Build a Ruby Gem Together!
+- title: Let's Build a Gem Together!
   path:  index.md
   sections:
   - title: Intro
