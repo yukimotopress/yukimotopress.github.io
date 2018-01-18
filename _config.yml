@@ -37,6 +37,7 @@ exclude:
 plugins:
 - jekyll-remote-theme
 - jekyll-avatar
+- jemoji
 
 
 remote_theme: octobook/book-2018-theme
