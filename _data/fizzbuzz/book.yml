@@ -1,0 +1,59 @@
+############################
+#  Book (Meta) Info
+
+title:   "FizzBuzz (1, 2, Fizz, 4, Buzz,...) by Example - There's More Than One Way To Do It (Book Edition)"
+author:
+  name:  "Tom Dalling, Paweł Świątkowski, Gerald Bauer et al"
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/yukimotopress/fizzbuzz
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: 1. FizzBuzz by Example
+  path:  fizzbuzz.md
+  sections:
+  - title: What is Fizz Buzz?
+  - title: Algorithms - There's more than one way to do it (TMTOWTDI or TIMTOWTDI)
+    sections:
+    - title: Gold Standard
+    - title: Classic
+    - title: Monkey Patch (Extend) Fixnum Class
+    - title: Object-Oriented with New Fizznum Class
+    - title: Don't Repeat Yourself (DRY)
+    - title: Enumarator
+    - title: Lazy Enumerator to Infinity
+    - title: Poor Man's (Do-It-Yourself) Pattern Matching
+    - title: Pattern Matching with Noaidi
+    - title: Pattern Matching with dry-matcher
+    - title: Test Driven Development (TDD)
+    - title: With Parameterization
+    - title: Use Cycle from Enumerable
+    - title: Code Golfing - One-Liners - The Shorter The Better!
+
+- title: 2. FizzBuzz in Too Much Detail
+  path:  fizzbuzz-in-too-much-detail.md
+  sections:
+  - title: What is FizzBuzz?
+  - title: A Naïve Implementation
+  - title: Don't Repeat Yourself (DRY)
+  - title: Parameterization
+  - title: Functional Programming (FP)
+  - title: Lazy Generation
+  - title: Polishing For Distribution
+  - title: What Have We Done?
+  - title: You Ain't Gonna Need It
+
+- title: 3. FizzBuzz with Pattern Matching
+  path:  fizzbuzz-with-pattern-matching.md
+  sections:
+  - title: Example 1 - Simple pattern matching
+  - title: Example 2 - A module
+  - title: Example 3 - Using dry-matcher
+  - title: Summary

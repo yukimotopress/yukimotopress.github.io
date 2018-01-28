@@ -28,3 +28,6 @@
 [submodule "_http"]
 	path = _http
 	url = https://github.com/yukimotopress/http
+[submodule "_fizzbuzz"]
+	path = _fizzbuzz
+	url = https://github.com/yukimotopress/fizzbuzz
