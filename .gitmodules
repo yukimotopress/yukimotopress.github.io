@@ -31,3 +31,6 @@
 [submodule "_fizzbuzz"]
 	path = _fizzbuzz
 	url = https://github.com/yukimotopress/fizzbuzz
+[submodule "_programming-blockchains-step-by-step"]
+	path = _programming-blockchains-step-by-step
+	url = https://github.com/yukimotopress/programming-blockchains-step-by-step
