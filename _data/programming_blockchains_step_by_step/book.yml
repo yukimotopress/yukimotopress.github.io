@@ -1,0 +1,34 @@
+############################
+#  Book (Meta) Info
+
+title:   "Programming Blockchains Step-by-Step from Scratch (Zero). Starting with Crypto Hashes... (Book Edition)"
+author:
+  name:  "Gerald Bauer, et al"
+
+
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/yukimotopress/programming-blockchains-step-by-step
+
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: Programming Blockchains Step-by-Step
+  path:  manuscript/README.md
+  sections:
+  - title: (Crypto) Hash
+  - title: (Crypto) Block
+  - title: (Crypto) Block with Proof-of-Work
+  - title: Blockchain
+  - title: Blockchain Broken?
+  - title: Timestamping
+  - title: Mining, Mining, Mining
+  - title: Bitcoin, Bitcoin, Bitcoin
+  - title: (Crypto) Block with Transactions (Tx)
+  - title: References / Links
